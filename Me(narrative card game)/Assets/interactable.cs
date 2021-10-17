@@ -46,6 +46,7 @@ public class interactable : MonoBehaviour
         {
             UIExit.SetTrigger("exit");
             Invoke("InteractionUIDisappear", UIExitTime);
+            interactAllowed = false;
         }
     }
     void InteractionUIDisappear()
