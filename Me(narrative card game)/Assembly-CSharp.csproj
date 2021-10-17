@@ -42,11 +42,12 @@
      <Compile Include="Assets\Scripts\CharacterController2D.cs" />
      <Compile Include="Assets\PlayScript.cs" />
      <Compile Include="Assets\Scripts\PhoneButtonFunctions.cs" />
+     <Compile Include="Assets\CoverRotation.cs" />
      <Compile Include="Assets\Scripts\Dialogue.cs" />
      <Compile Include="Assets\Scripts\DialogueManager.cs" />
      <Compile Include="Assets\BackgroundMusic.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
-     <Compile Include="Assets\CoverRotation.cs" />
+     <Compile Include="Assets\interactable.cs" />
      <None Include="Assets\PNG\Pigeons\Read Me.txt" />
      <None Include="Assets\PNG\Charles red head\Read Me.txt" />
      <None Include="Assets\PNG\Dari Robins\Read Me.txt" />
@@ -627,94 +628,94 @@
         <HintPath>D:/APP/Unity Editor/2020.3.18f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Editor">
-        <HintPath>D:/PROJECTS/Unity Project/Me(narrative card game)/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
+        <HintPath>D:/PROJECTS/Unity Project/CARDGame/card game/Me(narrative card game)/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEngineBridge.001">
-        <HintPath>D:/PROJECTS/Unity Project/Me(narrative card game)/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
+        <HintPath>D:/PROJECTS/Unity Project/CARDGame/card game/Me(narrative card game)/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>D:/PROJECTS/Unity Project/Me(narrative card game)/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+        <HintPath>D:/PROJECTS/Unity Project/CARDGame/card game/Me(narrative card game)/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.PixelPerfect">
-        <HintPath>D:/PROJECTS/Unity Project/Me(narrative card game)/Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll</HintPath>
+        <HintPath>D:/PROJECTS/Unity Project/CARDGame/card game/Me(narrative card game)/Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-        <HintPath>D:/PROJECTS/Unity Project/Me(narrative card game)/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+        <HintPath>D:/PROJECTS/Unity Project/CARDGame/card game/Me(narrative card game)/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="PsdPlugin">
-        <HintPath>D:/PROJECTS/Unity Project/Me(narrative card game)/Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
+        <HintPath>D:/PROJECTS/Unity Project/CARDGame/card game/Me(narrative card game)/Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>D:/PROJECTS/Unity Project/Me(narrative card game)/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+        <HintPath>D:/PROJECTS/Unity Project/CARDGame/card game/Me(narrative card game)/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
-        <HintPath>D:/PROJECTS/Unity Project/Me(narrative card game)/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+        <HintPath>D:/PROJECTS/Unity Project/CARDGame/card game/Me(narrative card game)/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-        <HintPath>D:/PROJECTS/Unity Project/Me(narrative card game)/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+        <HintPath>D:/PROJECTS/Unity Project/CARDGame/card game/Me(narrative card game)/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-        <HintPath>D:/PROJECTS/Unity Project/Me(narrative card game)/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+        <HintPath>D:/PROJECTS/Unity Project/CARDGame/card game/Me(narrative card game)/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.IK.Editor">
-        <HintPath>D:/PROJECTS/Unity Project/Me(narrative card game)/Library/ScriptAssemblies/Unity.2D.IK.Editor.dll</HintPath>
+        <HintPath>D:/PROJECTS/Unity Project/CARDGame/card game/Me(narrative card game)/Library/ScriptAssemblies/Unity.2D.IK.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-        <HintPath>D:/PROJECTS/Unity Project/Me(narrative card game)/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+        <HintPath>D:/PROJECTS/Unity Project/CARDGame/card game/Me(narrative card game)/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Psdimporter.Editor">
-        <HintPath>D:/PROJECTS/Unity Project/Me(narrative card game)/Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll</HintPath>
+        <HintPath>D:/PROJECTS/Unity Project/CARDGame/card game/Me(narrative card game)/Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Path.Editor">
-        <HintPath>D:/PROJECTS/Unity Project/Me(narrative card game)/Library/ScriptAssemblies/Unity.2D.Path.Editor.dll</HintPath>
+        <HintPath>D:/PROJECTS/Unity Project/CARDGame/card game/Me(narrative card game)/Library/ScriptAssemblies/Unity.2D.Path.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEditorBridge.001">
-        <HintPath>D:/PROJECTS/Unity Project/Me(narrative card game)/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
+        <HintPath>D:/PROJECTS/Unity Project/CARDGame/card game/Me(narrative card game)/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>D:/PROJECTS/Unity Project/Me(narrative card game)/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+        <HintPath>D:/PROJECTS/Unity Project/CARDGame/card game/Me(narrative card game)/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
-        <HintPath>D:/PROJECTS/Unity Project/Me(narrative card game)/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
+        <HintPath>D:/PROJECTS/Unity Project/CARDGame/card game/Me(narrative card game)/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-        <HintPath>D:/PROJECTS/Unity Project/Me(narrative card game)/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+        <HintPath>D:/PROJECTS/Unity Project/CARDGame/card game/Me(narrative card game)/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>D:/PROJECTS/Unity Project/Me(narrative card game)/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+        <HintPath>D:/PROJECTS/Unity Project/CARDGame/card game/Me(narrative card game)/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics">
-        <HintPath>D:/PROJECTS/Unity Project/Me(narrative card game)/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+        <HintPath>D:/PROJECTS/Unity Project/CARDGame/card game/Me(narrative card game)/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.IK.Runtime">
-        <HintPath>D:/PROJECTS/Unity Project/Me(narrative card game)/Library/ScriptAssemblies/Unity.2D.IK.Runtime.dll</HintPath>
+        <HintPath>D:/PROJECTS/Unity Project/CARDGame/card game/Me(narrative card game)/Library/ScriptAssemblies/Unity.2D.IK.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Triangle.Runtime">
-        <HintPath>D:/PROJECTS/Unity Project/Me(narrative card game)/Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Runtime.dll</HintPath>
+        <HintPath>D:/PROJECTS/Unity Project/CARDGame/card game/Me(narrative card game)/Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Runtime">
-        <HintPath>D:/PROJECTS/Unity Project/Me(narrative card game)/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
+        <HintPath>D:/PROJECTS/Unity Project/CARDGame/card game/Me(narrative card game)/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.PixelPerfect.Editor">
-        <HintPath>D:/PROJECTS/Unity Project/Me(narrative card game)/Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.dll</HintPath>
+        <HintPath>D:/PROJECTS/Unity Project/CARDGame/card game/Me(narrative card game)/Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-        <HintPath>D:/PROJECTS/Unity Project/Me(narrative card game)/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+        <HintPath>D:/PROJECTS/Unity Project/CARDGame/card game/Me(narrative card game)/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics.Editor">
-        <HintPath>D:/PROJECTS/Unity Project/Me(narrative card game)/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+        <HintPath>D:/PROJECTS/Unity Project/CARDGame/card game/Me(narrative card game)/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Common.Runtime">
-        <HintPath>D:/PROJECTS/Unity Project/Me(narrative card game)/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
+        <HintPath>D:/PROJECTS/Unity Project/CARDGame/card game/Me(narrative card game)/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.SpriteShape.Editor">
-        <HintPath>D:/PROJECTS/Unity Project/Me(narrative card game)/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
+        <HintPath>D:/PROJECTS/Unity Project/CARDGame/card game/Me(narrative card game)/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Common.Editor">
-        <HintPath>D:/PROJECTS/Unity Project/Me(narrative card game)/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
+        <HintPath>D:/PROJECTS/Unity Project/CARDGame/card game/Me(narrative card game)/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.SpriteShape.Runtime">
-        <HintPath>D:/PROJECTS/Unity Project/Me(narrative card game)/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
+        <HintPath>D:/PROJECTS/Unity Project/CARDGame/card game/Me(narrative card game)/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

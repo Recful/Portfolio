@@ -104,6 +104,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 7634575242175043361}
+  - {fileID: 8338639910815997251}
   - {fileID: 6635263038823223118}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -190,6 +191,11 @@ MonoBehaviour:
   screenUI: {fileID: 7634575243596711113}
   playUI: {fileID: 7634575242685965234}
   pauseUI: {fileID: 7634575241691307428}
+  cutSceneTime: 0
+  cutSceneUI: {fileID: 0}
+  transition: {fileID: 0}
+  tutorialUI: {fileID: 0}
+  tutorialBoxExit: {fileID: 0}
 --- !u!1 &7634575241864816332
 GameObject:
   m_ObjectHideFlags: 0
@@ -292,7 +298,6 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7634575242792812356}
-  - {fileID: 8338639910815997251}
   - {fileID: 7634575242551051929}
   m_Father: {fileID: 7634575241702098763}
   m_RootOrder: 0
@@ -371,7 +376,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7634575242175043361}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1035,7 +1040,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 7634575242175043361}
+    m_TransformParent: {fileID: 7634575241702098763}
     m_Modifications:
     - target: {fileID: 1894811933859330661, guid: fe2bdcd69caf5f64fb8c8b70faa82461, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -1119,15 +1124,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1894811934109511172, guid: fe2bdcd69caf5f64fb8c8b70faa82461, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1894811934109511172, guid: fe2bdcd69caf5f64fb8c8b70faa82461, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1894811934109511172, guid: fe2bdcd69caf5f64fb8c8b70faa82461, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1894811934109511172, guid: fe2bdcd69caf5f64fb8c8b70faa82461, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -1285,7 +1290,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3883867801104264362, guid: 515309294024f8b40adab10cb716cbde, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3883867801104264362, guid: 515309294024f8b40adab10cb716cbde, type: 3}
       propertyPath: m_AnchorMax.x

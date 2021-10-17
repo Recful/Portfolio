@@ -17,7 +17,7 @@ public class CameraFollow : MonoBehaviour
     void Start()
     {
         camPosInitial = transform.position;
-        camPosStop = new Vector3(30.5f, 0f, -1f);
+        camPosStop = new Vector3(30.6f, 0f, -1f);
         
     }
 

@@ -16,6 +16,9 @@ public class PhoneButtonFunctions : MonoBehaviour
     public GameObject cutSceneUI;
 
     public Animator transition;
+
+    public GameObject tutorialUI;
+    public Animator tutorialBoxExit;
     void Start()
     {
         screen = GameObject.Find("screen");
@@ -36,6 +39,22 @@ public class PhoneButtonFunctions : MonoBehaviour
     void UIinactive()
     {
         cutSceneUI.SetActive(false);
+    }
+
+    public void ActiveTutorialUI()
+    {
+        Invoke("TutorialUIAnimation", cutSceneTime);
+        //inactive tutorial UI
+        Invoke("TutorialUIDisappear",cutSceneTime * 2);
+    }
+    void TutorialUIAnimation()
+    {
+        tutorialUI.SetActive(true);
+    }
+
+    void TutorialUIDisappear()
+    {
+        tutorialBoxExit.SetTrigger("exit");
     }
 
     public void InactivePhoneButton()
