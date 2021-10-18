@@ -26,6 +26,9 @@ TextureImporter:
   - first:
       213: -5315660605960954115
     second: elevator
+  - first:
+      213: -1673399393943681886
+    second: Clock
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -318,7 +321,7 @@ TextureImporter:
         width: 76
         height: 55
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -326,6 +329,27 @@ TextureImporter:
       bones: []
       spriteID: dfed82ba7dafa36b0800000000000000
       internalID: -5315660605960954115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clock
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1824
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a402a40e14e6c8e0800000000000000
+      internalID: -1673399393943681886
       vertices: []
       indices: 
       edges: []
