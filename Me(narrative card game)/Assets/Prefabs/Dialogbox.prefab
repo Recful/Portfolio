@@ -388,11 +388,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: It is just a test dialog. This is meant to test text font, position, and
-    the dialog system. Yes, I want to fill it in as much as I can. If this font is
-    not great, we can download more font to text this. Yes, I am still typing. How
-    many more words do you think I can put inside the dialog box. I want to test
-    out the right number of words to fit inside this box.
+  m_Text: 
 --- !u!1 &1894811935215351881
 GameObject:
   m_ObjectHideFlags: 0

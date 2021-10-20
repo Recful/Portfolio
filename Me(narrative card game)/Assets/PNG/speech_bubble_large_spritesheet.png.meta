@@ -8,6 +8,9 @@ TextureImporter:
   - first:
       213: 9205039534927720463
     second: speech_bubble_2
+  - first:
+      213: -4877969955848406883
+    second: object bubble1
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -153,7 +156,7 @@ TextureImporter:
         width: 26
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -174,7 +177,7 @@ TextureImporter:
         width: 26
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -182,6 +185,27 @@ TextureImporter:
       bones: []
       spriteID: f003bc6cfaedebf70800000000000000
       internalID: 9205039534927720463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: object bubble1
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 6
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d98b0a47b28fd4cb0800000000000000
+      internalID: -4877969955848406883
       vertices: []
       indices: 
       edges: []

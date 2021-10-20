@@ -41,6 +41,12 @@ TextureImporter:
   - first:
       213: -3471331164851621783
     second: trophy
+  - first:
+      213: 5891900952653380060
+    second: Boss desk
+  - first:
+      213: 5542990660833360013
+    second: Fake document
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -446,6 +452,48 @@ TextureImporter:
       bones: []
       spriteID: 960b64d82ba53dfc0800000000000000
       internalID: -3471331164851621783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss desk
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 48
+        width: 48
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd9b0b623bc34c150800000000000000
+      internalID: 5891900952653380060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fake document
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 81
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d88b74453a8acec40800000000000000
+      internalID: 5542990660833360013
       vertices: []
       indices: 
       edges: []

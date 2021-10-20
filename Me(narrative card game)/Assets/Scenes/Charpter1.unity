@@ -5216,6 +5216,22 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 961.9128
       objectReference: {fileID: 0}
+    - target: {fileID: 6635263038823223119, guid: 1b996314d0718ae4897a0797fdc8de33, type: 3}
+      propertyPath: dialogue.names.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635263038823223119, guid: 1b996314d0718ae4897a0797fdc8de33, type: 3}
+      propertyPath: dialogue.names.Array.data[0]
+      value: Nate
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635263038823223119, guid: 1b996314d0718ae4897a0797fdc8de33, type: 3}
+      propertyPath: dialogue.names.Array.data[1]
+      value: Nate
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635263038823223119, guid: 1b996314d0718ae4897a0797fdc8de33, type: 3}
+      propertyPath: dialogue.names.Array.data[2]
+      value: Nate
+      objectReference: {fileID: 0}
     - target: {fileID: 6635263038823223121, guid: 1b996314d0718ae4897a0797fdc8de33, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -6250,7 +6266,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    name: NATE
+    names:
+    - Nate
     sentences:
     - Finally, I'm here. A normal boring day, here I come...
 --- !u!4 &1594954089
@@ -7741,7 +7758,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    name: NATE
+    names:
+    - Nate
+    - Nate
+    - Nate
     sentences:
     - Yeah, I can take the bus to the work.
     - But there is no time to wait for the but.
