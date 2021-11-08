@@ -48,10 +48,9 @@
      <Compile Include="Assets\Scripts\Dialogue.cs" />
      <Compile Include="Assets\Scripts\DialogueManager.cs" />
      <Compile Include="Assets\BackgroundMusic.cs" />
+     <Compile Include="Assets\PickUp.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
-     <Compile Include="Assets\DialogueManager2.cs" />
-     <Compile Include="Assets\InputDialogue.cs" />
-     <Compile Include="Assets\interactableForCoversation.cs" />
+     <Compile Include="Assets\ObjectState.cs" />
      <None Include="Assets\PNG\Pigeons\Read Me.txt" />
      <None Include="Assets\PNG\Charles red head\Read Me.txt" />
      <None Include="Assets\PNG\Dari Robins\Read Me.txt" />

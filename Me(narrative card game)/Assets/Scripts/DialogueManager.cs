@@ -12,6 +12,7 @@ public class DialogueManager : MonoBehaviour
 
     private Queue<string> sentences;
     private Queue<string> names;
+    public bool endConversation = false;
 
 
 
@@ -73,5 +74,6 @@ public class DialogueManager : MonoBehaviour
     void EndDialogue()
     {
         animator.SetBool("IsOpen", false);
+        endConversation = true;
     }
 }

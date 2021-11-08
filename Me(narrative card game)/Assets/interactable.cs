@@ -24,11 +24,12 @@ public class interactable : MonoBehaviour
     void Update()
     {
         if(Input.GetKeyDown(KeyCode.E) == true && interactAllowed == true)
-            {
-                dialogueUI.SetActive(true);
-                startDialogue.TriggerDialogue();
-                conversationBubble.SetActive(false);
-            }
+        {
+            dialogueUI.SetActive(true);
+            startDialogue.TriggerDialogue();
+            conversationBubble.SetActive(false);
+            interactAllowed = false;
+        }
     }
 
     void OnTriggerEnter2D(Collider2D collision)
